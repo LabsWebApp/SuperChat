@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/DataModelsTests/DataModelsTests.csproj" Id="a057d2bc-cbec-423f-bb68-edd2404f6082">
+      <BuildDependency Project="DataModels/DataModels.csproj" />
+    </Project>
+    <Project Path="Tests/SuperChat.WebClientTests/SuperChat.WebClientTests.csproj" Id="bdc30338-f22b-4687-8a4e-5bec30b003ad" />
+  </Folder>
+  <Folder Name="/Web/">
+    <Project Path="Web/DataModels.WebApi/DataModels.WebApi.csproj">
+      <BuildDependency Project="DataModels/DataModels.csproj" />
+    </Project>
+    <Project Path="Web/SuperChat.WebClient/SuperChat.WebClient.csproj" />
+  </Folder>
+  <Project Path="DataModels/DataModels.csproj" Id="b614ddcc-af70-4dd8-8b49-c740afa1942b" />
+  <Project Path="Share/Share.csproj" Id="8f158815-2f85-4948-a487-0fcaa9deb382" />
+  <Project Path="SuperChat.DesktopClient/SuperChat.DesktopClient.csproj" Id="aea8ab22-f420-42b6-8bbb-4f30a5f46147" />
+  <Project Path="SuperChat.MobileClient/SuperChat.MobileClient.csproj" Id="9036a8b2-0daa-425e-9f32-c12a67bdf1e1" />
+</Solution>
